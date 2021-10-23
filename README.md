@@ -39,7 +39,7 @@ Methods to denoise, accelerate fitting progress.
 
 Low Discrepancy Sequence (Sobol) :
 
-<div align="center"><img src="README.assets/2eb9495dd5024b4f914dc3291a0467ba.gif" width="256"><img src="README.assets/image-20211023171623698.png" width="256"></div>
+<div align="center"><img src="README.assets/2eb9495dd5024b4f914dc3291a0467ba.gif" width="256"> <img src="README.assets/image-20211023171623698.png" width="256"></div>
 
 Importance Sampling, diffuse (left) and BRDF (right) :
 
@@ -51,7 +51,7 @@ Importance Sampling for HDR envmap :
 
 Multi Importance Sampling with Heuristic power :
 
-<div align="center"><img src="README.assets/29a21706e2664d57a2ca9a6089da632a.png" width="256"></div>
+<div align="center"><img src="README.assets/29a21706e2664d57a2ca9a6089da632a.png" width="300"></div>
 
 
 
@@ -67,9 +67,9 @@ environment:
 
 C++  lib:
 
-* GLUT (freeglut) >= 3.0.0-7
-* GLEW >= 2.1.0-5
-* GLM  >= 0.9.9.5-3
+* GLUT (freeglut) >= 3.0.0
+* GLEW >= 2.1.0
+* GLM  >= 0.9.9.5
 
 
 
@@ -101,3 +101,5 @@ cmake ./
 
 * fix error in chapter 1, multiply cosine wi, not wo​
 * 摆烂了
+
+# Reference
