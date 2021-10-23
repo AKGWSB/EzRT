@@ -1,0 +1,1 @@
+del *.js *.css *.html *.txt /s
