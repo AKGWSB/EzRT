@@ -99,7 +99,44 @@ cmake ./
 
 # Bugs & TODO
 
-* fix error in chapter 1, multiply cosine wi, not wo​
+* fix error in chapter 1, it's right to multiply cosine **wo** in rendering equation, not **wi**
 * 摆烂了
 
+
+
 # Reference
+
+[1] Brent Burley, Walt Disney Animation Studios 2012, ["Physically-Based Shading at Disney"](https://media.disneyanimation.com/uploads/production/publication_asset/48/asset/s2012_pbs_disney_brdf_notes_v3.pdf)
+
+[2] Stephen Joe and Frances Kuo, ["Sobol sequence generator"](https://web.maths.unsw.edu.au/~fkuo/sobol/)
+
+[3] Stephen Joe and Frances Y. Kuo, ["Notes on generating Sobol sequences"](https://web.maths.unsw.edu.au/~fkuo/sobol/joe-kuo-notes.pdf)
+
+[4] cs184.eecs.berkeley.edu, ["Project 3-2, Part 3: Environment Map Lights"](https://cs184.eecs.berkeley.edu/sp18/article/25)
+
+[5] blender (document), "[Cycles Sampling Patterns, Sobol](https://wiki.blender.org/wiki/Source/Render/Cycles/SamplingPatterns)"
+
+[6] Shih-Chin, ["Implementing Disney Principled BRDF in Arnold"](http://shihchinw.github.io/2015/07/implementing-disney-principled-brdf-in-arnold.html)
+
+[7] Matt Pharr, Wenzel Jakob, and Greg Humphreys, ["Physically Based Rendering: From Theory To Implementation"](https://www.pbr-book.org/3ed-2018/contents)
+
+[8] knightcrawler25 (GitHub), ["GLSL-PathTracer"](https://github.com/knightcrawler25/GLSL-PathTracer)
+
+[9] 文刀秋二 (知乎), ["低差异序列（一）- 常见序列的定义及性质"](https://zhuanlan.zhihu.com/p/20197323?columnSlug=graphics)
+
+[10] ksg fk (知乎), ["【Nori】任务5：路径追踪，微表面模型和多重重要性采样"](https://zhuanlan.zhihu.com/p/397068211)
+
+[11] Image Synthesis (CS474 F16), ["Assignment 4 -- Image-based Lighting"](https://sites.google.com/site/cmpsci474/assignment-4)
+
+[12] Dezeming (CSDN), ["多重重要性采样（MIS）与光线追踪技术"](https://blog.csdn.net/tiao_god/article/details/109675133)
+
+[13] lookof (博客园), ["BVH with SAH (Bounding Volume Hierarchy with Surface Area Heuristic)"](https://www.cnblogs.com/lookof/p/3546320.html)
+
+[14] bluerose (知乎), ["PBRT笔记(12)——蒙特卡洛积分"](https://zhuanlan.zhihu.com/p/59679769)
+
+[15] 孙小磊 (知乎), ["计算机图形学十五：全局光照(蒙特卡洛路径追踪)"](https://zhuanlan.zhihu.com/p/146714484)
+
+[16] Atrix256 (twitter), ["Casual Shadertoy Path Tracing"](https://blog.demofox.org/2020/05/25/casual-shadertoy-path-tracing-1-basic-camera-diffuse-emissive/)
+
+
+
