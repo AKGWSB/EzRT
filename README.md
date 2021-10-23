@@ -60,9 +60,9 @@ Multi Importance Sampling with Heuristic power :
 environment:
 
 * Windows 10 x64
-* vcpkg
 * visual studio 2019
-
+* vcpkg
+* cmake
 
 
 C++  lib:
