@@ -13,7 +13,7 @@ This tutorial contains 5 chapters, each chapter include tutorial blog (provide .
 
 In this part we will implement a basic ray tracing program with  C++, then output each pixel as the result to png image.
 
-![image-20211023164946107](README.assets/image-20211023164946107.png)
+<div align="center"><img src="README.assets/image-20211023164946107.png" width="256"></div>
 
 ## part 2. BVH Accelerate Struct
 
@@ -99,5 +99,5 @@ cmake ./
 
 # Bugs & TODO
 
-* fix error in chapter 1, multiply cosine **$wi$**, not $wo$
+* fix error in chapter 1, multiply cosine wi, not wo​
 * 摆烂了
